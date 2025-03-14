@@ -17,7 +17,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * POT Maven Plugin - Programming Overload Therapy
  * This plugin provides a simple way to enhance your project's capabilities.
  */
-@Mojo(name = "enhance", defaultPhase = LifecyclePhase.PROCESS_RESOURCES)
+@Mojo(name = "enhance", defaultPhase = LifecyclePhase.VERIFY)
 public class App extends AbstractMojo {
 
     /**

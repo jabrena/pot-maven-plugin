@@ -53,7 +53,13 @@
         <executions>
           <execution>
             <id>default-descriptor</id>
-            <phase>verify</phase>
+            <phase>process-classes</phase>
+          </execution>
+          <execution>
+            <id>help-goal</id>
+            <goals>
+              <goal>helpmojo</goal>
+            </goals>
           </execution>
         </executions>
       </plugin>
