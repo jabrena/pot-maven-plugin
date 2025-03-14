@@ -65,7 +65,7 @@
             <goals>
               <goal>enhance</goal>
             </goals>
-            <phase>process-resources</phase>
+            <phase>verify</phase>
           </execution>
         </executions>
       </plugin>
